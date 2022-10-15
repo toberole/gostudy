@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gostudy/cgo"
+	"gostudy/demo"
 )
 
 func main() {
@@ -10,5 +10,6 @@ func main() {
 	//demo.Demo1()
 	//demo.GORMDemo1()
 	//demo.GORMDemo2()
-	cgo.CGoTest1_1()
+	//cgo.CGoTest1_1()
+	demo.Demo2()
 }
